@@ -1,0 +1,8 @@
+arr[0] = 1 | arr[1] + arr[2] = 5
+2-D arr[0, 1] = 2 | arr[1, -1] = 10
+3-D arr[0, 1, 2] = 6
+last element of row 1: 10
+elements > 5: [ 6  7  8  9 10]
+mask: [False  True False  True] -> [2 4]
+fancy: [1 4]
+rows 0 and 1, columns 1 and 3: [2 9]

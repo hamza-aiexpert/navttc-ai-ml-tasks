@@ -1,0 +1,27 @@
+Created data.csv with 40 rows
+
+head():
+    Duration  Pulse  Maxpulse  Calories
+0        67     90       139     274.9
+1        71    120       151     304.3
+2        95     92       160     321.8
+3       115    101       165     221.4
+4        23    109       123     211.4
+
+tail(3):
+     Duration  Pulse  Maxpulse  Calories
+37        40    108       166     288.9
+38        70    104       130     302.6
+39        46     92       140     186.0
+
+max rows option: 60
+
+usecols + nrows:
+    Duration  Calories
+0        67     274.9
+1        71     304.3
+2        95     321.8
+3       115     221.4
+4        23     211.4
+
+Saved data_with_ratio.csv -> ['Duration', 'Pulse', 'Maxpulse', 'Calories', 'Calories_per_min']

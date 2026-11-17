@@ -1,0 +1,19 @@
+Bag of Words:
+    apples  deep  eating  fresh  ...  mangoes  powerful  summer  tasty
+0       0     0       0      0  ...        0         1       0      0
+1       0     1       0      0  ...        0         0       0      0
+2       0     0       1      1  ...        1         0       1      0
+3       1     0       0      0  ...        1         0       0      1
+
+[4 rows x 13 columns] 
+
+Document similarity (cosine, TF-IDF):
+       0     1     2     3
+0  1.00  0.51  0.00  0.00
+1  0.51  1.00  0.00  0.00
+2  0.00  0.00  1.00  0.15
+3  0.00  0.00  0.15  1.00 
+
+Sentiment 6-fold CV accuracy: [1.   1.   1.   1.   0.83 1.  ] mean = 0.97
+'the labs were excellent' -> positive
+'boring and terrible class' -> negative

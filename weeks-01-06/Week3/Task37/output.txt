@@ -1,0 +1,8 @@
+array_split(3): [array([1, 2]), array([3, 4]), array([5, 6])]
+array_split(4) (uneven allowed): [array([1, 2]), array([3, 4]), array([5]), array([6])]
+first part: [1 2] | second part: [3 4]
+2-D split into 3 (rows): [[[1, 2], [3, 4]], [[5, 6], [7, 8]], [[9, 10], [11, 12]]]
+2-D split along axis=1: [[[1], [3], [5], [7], [9], [11]], [[2], [4], [6], [8], [10], [12]]]
+hsplit: [array([0, 1]), array([2, 3]), array([4, 5])]
+vsplit: [[[0, 1], [2, 3]], [[4, 5], [6, 7]]]
+split at indices [2, 4]: [array([1, 2]), array([3, 4]), array([5, 6])]

@@ -1,0 +1,4 @@
+Regression  MSE: 0.375  MAE: 0.5  Huber: 0.1875
+Binary cross-entropy: 0.2603
+Categorical cross-entropy: 0.3635
+Hinge: 0.7999999999999999

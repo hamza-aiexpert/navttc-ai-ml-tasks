@@ -1,0 +1,14 @@
+int array dtype: int64
+float array dtype: float64
+string array dtype: <U6
+bool array dtype: bool
+dtype 'S': [b'1' b'2' b'3' b'4']
+dtype 'i4': int32
+dtype float32: float32
+float -> int: [1 2 3] | float -> bool: [False  True  True]
+int -> str: ['1' '2' '3']
+ValueError: invalid literal for int() with base 10: np.str_('a')
+int8 uses 1 bytes per element
+int32 uses 4 bytes per element
+int64 uses 8 bytes per element
+float64 uses 8 bytes per element

@@ -1,0 +1,2 @@
+Input: (16, 16) | Feature map: (14, 14) | After pooling: (7, 7)
+Flattened vector length (input to dense layer): 98

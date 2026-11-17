@@ -1,0 +1,92 @@
+Series head:
+ 2023-01-01    236.1
+2023-01-02    217.8
+2023-01-03    217.1
+2023-01-04    197.1
+2023-01-05    200.5
+Freq: D, Name: sales, dtype: float64
+
+Index type: DatetimeIndex | freq: <Day> | length: 1096
+
+March 2024 mean: 315.72
+Slice 2025-06-01..2025-06-05:
+ 2025-06-01    372.8
+2025-06-02    354.9
+2025-06-03    337.5
+2025-06-04    339.7
+2025-06-05    350.0
+Freq: D, Name: sales, dtype: float64
+
+Monthly mean (first 6):
+ 2023-01-31    221.7
+2023-02-28    244.5
+2023-03-31    259.9
+2023-04-30    267.2
+2023-05-31    256.4
+2023-06-30    247.9
+Freq: ME, Name: sales, dtype: float64
+
+Quarterly total:
+ 2023-03-31    21778.0
+2023-06-30    23400.0
+2023-09-30    20149.0
+2023-12-31    21499.0
+2024-03-31    27057.0
+2024-06-30    28235.0
+2024-09-30    25149.0
+2024-12-31    26544.0
+2025-03-31    31442.0
+2025-06-30    33543.0
+2025-09-30    30107.0
+2025-12-31    31521.0
+Freq: QE-DEC, Name: sales, dtype: float64
+
+7-day rolling mean (last 3):
+ 2025-12-29    368.73
+2025-12-30    371.06
+2025-12-31    375.84
+Freq: D, Name: sales, dtype: float64
+
+Day-over-day change (first 3):
+ 2023-01-02   -18.3
+2023-01-03    -0.7
+2023-01-04   -20.0
+Freq: D, Name: sales, dtype: float64
+Year-over-year % change of monthly mean (last 3):
+ 2025-10-31    20.96
+2025-11-30    17.93
+2025-12-31    17.58
+Freq: ME, Name: sales, dtype: float64
+
+Average sales by weekday (0=Mon):
+ 0    280.6
+1    283.0
+2    281.4
+3    283.1
+4    283.3
+5    319.0
+6    316.1
+Name: sales, dtype: float64
+
+Average by month:
+ 1     276.2
+2     298.3
+3     314.4
+4     321.2
+5     312.5
+6     302.3
+7     282.6
+8     271.5
+9     265.2
+10    269.3
+11    285.5
+12    309.9
+Name: sales, dtype: float64
+
+Residual std: 14.6
+
+Autocorrelation at lag 1, 7, 30: [0.881, 0.945, 0.768]
+Std of series: 52.49 | std after 1st difference: 25.62
+
+Seasonal-naive forecast MAPE for last 30 days: 15.07 %
+Saved time_series.png

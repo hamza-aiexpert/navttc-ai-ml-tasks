@@ -1,0 +1,16 @@
+Caught ZeroDivisionError: division by zero
+convert '42' -> 42
+  ValueError: 'abc' is not a number
+convert 'abc' -> None
+  TypeError: cannot convert NoneType
+convert None -> None
+  success, result = 5.0
+  finally: always runs
+  cannot divide by zero
+  finally: always runs
+Caught IndexError -> list index out of range
+Caught KeyError -> 'b'
+File error: [Errno 2] No such file or directory: 'does_not_exist.txt'
+Raised: age cannot be negative
+AssertionError: math is broken
+File content: ['Hello file handling', 'Second line']

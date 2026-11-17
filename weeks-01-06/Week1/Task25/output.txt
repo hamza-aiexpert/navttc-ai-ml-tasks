@@ -1,0 +1,17 @@
+{'name': 'Ali', 'age': 21, 'course': 'AI/ML'} | type: dict
+access: Ali N/A
+after update/delete: {'name': 'Ali', 'age': 22, 'grade': 'A'}
+keys: ['name', 'age', 'grade']
+values: ['Ali', 22, 'A']
+  name: Ali
+  age: 22
+  grade: A
+pop: A | membership: True
+after update(): {'name': 'Ali', 'age': 23, 'city': 'Lahore'}
+squares: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+word frequency: {'to': 3, 'be': 3, 'or': 1, 'not': 1, 'that': 1, 'is': 1, 'the': 1, 'question': 1}
+most common: to
+ali average: 85.0
+sara average: 91.5
+sorted by value: {'to': 3, 'be': 3, 'or': 1, 'not': 1, 'that': 1, 'is': 1, 'the': 1, 'question': 1}
+merged: {'a': 1, 'b': 2}

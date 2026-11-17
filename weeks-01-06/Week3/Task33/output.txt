@@ -1,0 +1,6 @@
+shape: (2, 4) | ndim: 2 | size: 8 | dtype: int64
+ndmin=5 array: [[[[[1 2 3 4]]]]] shape: (1, 1, 1, 1, 4)
+each dimension size -> ['axis 0: 1', 'axis 1: 1', 'axis 2: 1', 'axis 3: 1', 'axis 4: 4']
+3-D shape: (2, 3, 4)
+itemsize: 8 | total bytes: 64
+transpose shape: (4, 2)

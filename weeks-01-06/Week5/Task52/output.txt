@@ -1,0 +1,28 @@
+Images: (1797, 8, 8) | flattened: (1797, 64) | classes: 10
+
+Multiclass accuracy: 0.9689
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        45
+           1       0.87      0.98      0.92        46
+           2       1.00      0.98      0.99        44
+           3       0.96      1.00      0.98        46
+           4       1.00      0.96      0.98        45
+           5       0.98      0.93      0.96        46
+           6       1.00      0.98      0.99        45
+           7       0.98      1.00      0.99        45
+           8       0.95      0.91      0.93        43
+           9       0.98      0.96      0.97        45
+
+    accuracy                           0.97       450
+   macro avg       0.97      0.97      0.97       450
+weighted avg       0.97      0.97      0.97       450
+
+True label: 2 | predicted: 2 | probability: 0.704
+
+Binary accuracy (breast cancer): 0.958
+Confusion matrix [[TN FP] [FN TP]]:
+ [[50  3]
+ [ 3 87]]
+
+Saved: sample_digits.png, digits_confusion_matrix.png, sigmoid.png

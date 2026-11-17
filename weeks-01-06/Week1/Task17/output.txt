@@ -1,0 +1,9 @@
+current letter: g
+Found 'e', breaking out
+First number > 100 divisible by 5 and 7: 105
+2 is prime
+15 is not prime (divisible by 3 )
+17 is prime
+21 is not prime (divisible by 3 )
+29 is prime
+16 found at index 3

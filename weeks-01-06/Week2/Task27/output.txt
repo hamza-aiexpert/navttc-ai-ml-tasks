@@ -1,0 +1,8 @@
+4.0
+Caught NegativeNumberError: cannot take the square root of a negative number
+Withdrew 300 -> balance 700
+Error: Balance 700 is less than requested amount 900 | short by 200
+valid: True
+AgeError -> invalid age 150
+ValidationError -> EmailError invalid email 'nomail'
+Chained: could not parse input | caused by: ValueError("invalid literal for int() with base 10: 'xyz'")

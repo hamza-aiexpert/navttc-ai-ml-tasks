@@ -1,0 +1,13 @@
+add(3, 4) = 7
+Hello, Ali! Salam, Sara!
+total: 10 | name=Ali, city=Lahore
+min, max: 1 9
+5! = 120 | fib(10) = 55
+local global
+changed
+lambda: 81
+map: [2, 4, 6, 8, 10, 12]
+filter: [2, 4, 6]
+triple(7) = 21
+11 | Apply func two times to value.
+primes < 30: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]

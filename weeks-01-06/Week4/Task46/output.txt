@@ -1,0 +1,70 @@
+head(5):
+    Duration  Pulse  Calories Group
+0       114    100     245.9     C
+1        82    109     316.3     A
+2        88    105     262.9     C
+3       109     99     310.2     B
+4        77    129     205.0     B
+
+tail(3):
+     Duration  Pulse  Calories Group
+57        82    129     320.8     B
+58        64    105     231.4     B
+59        71    113     377.8     C
+
+info():
+<class 'pandas.DataFrame'>
+RangeIndex: 60 entries, 0 to 59
+Data columns (total 4 columns):
+ #   Column    Non-Null Count  Dtype  
+---  ------    --------------  -----  
+ 0   Duration  60 non-null     int64  
+ 1   Pulse     60 non-null     int64  
+ 2   Calories  60 non-null     float64
+ 3   Group     60 non-null     str    
+dtypes: float64(1), int64(2), str(1)
+memory usage: 2.0 KB
+
+describe():
+          Duration       Pulse    Calories
+count   60.000000   60.000000   60.000000
+mean    74.316667  109.433333  292.161667
+std     28.932119   11.189230   67.752761
+min     20.000000   90.000000  137.200000
+25%     50.000000   99.750000  252.800000
+50%     73.000000  110.000000  288.100000
+75%    100.250000  117.250000  339.950000
+max    119.000000  129.000000  479.600000
+
+shape: (60, 4)
+
+value_counts of Group:
+ Group
+C    22
+A    19
+B    19
+Name: count, dtype: int64
+
+unique groups: <StringArray>
+['C', 'A', 'B']
+Length: 3, dtype: str
+
+mean per group:
+        Duration  Calories
+Group                    
+A         79.42    299.11
+B         70.53    289.47
+C         73.18    288.49
+
+Top 3 calories:
+     Duration  Pulse  Calories Group
+44       105     94     479.6     C
+20       101    111     421.9     A
+15       102     90     400.6     B
+
+null values per column:
+ Duration    0
+Pulse       0
+Calories    0
+Group       0
+dtype: int64

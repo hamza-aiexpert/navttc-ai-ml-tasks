@@ -1,0 +1,12 @@
+Tuple: (1, 2, 3, 'four', 5.0) | type: tuple | length: 5
+Indexing/slicing: 1 5.0 (2, 3)
+Single-element tuple: (42,) tuple
+Cannot modify a tuple -> 'tuple' object does not support item assignment
+Unpacked x, y: 3 4
+Star unpacking: 1 [2, 3, 4]
+count(2) = 3 | index(3) = 3
+Concatenate: (1, 2, 3, 4) | Repeat: (0, 0, 0)
+Membership: True
+Swapped: 2 1
+Lahore
+Convert: (1, 2, 3) [4, 5, 6]

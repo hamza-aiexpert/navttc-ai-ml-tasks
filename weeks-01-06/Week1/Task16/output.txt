@@ -1,0 +1,13 @@
+count = 1
+count = 2
+count = 3
+count = 4
+count = 5
+Sum of digits of 98765 = 35
+Fibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+Collatz steps for 27: 111
+T-minus 3
+T-minus 2
+T-minus 1
+Lift off!
+Reversed 12345 = 54321

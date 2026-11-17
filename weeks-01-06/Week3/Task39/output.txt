@@ -1,0 +1,12 @@
+sorted: [0 1 2 3] | original unchanged: [3 2 0 1]
+strings: ['apple' 'banana' 'cherry']
+booleans: [False  True  True]
+2-D sort (per row):
+ [[2 3 4]
+ [0 1 5]]
+2-D sort (per column):
+ [[3 0 1]
+ [5 2 4]]
+descending: [3 2 1 0]
+ranking: [(np.str_('Zoya'), np.int64(96)), (np.str_('Sara'), np.int64(92)), (np.str_('Ali'), np.int64(88)), (np.str_('Hamza'), np.int64(75))]
+in-place sort: [0 1 2 3]

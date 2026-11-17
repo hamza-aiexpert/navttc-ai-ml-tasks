@@ -1,0 +1,56 @@
+Dataset: (569, 30) | classes: ['malignant', 'benign']
+
+Full tree  -> depth: 6 | train acc: 1.0 | test acc: 0.9415
+Depth-3 tree -> train acc: 0.9749 | test acc: 0.9474
+
+Confusion matrix:
+ [[ 58   6]
+ [  3 104]]
+              precision    recall  f1-score   support
+
+   malignant       0.95      0.91      0.93        64
+      benign       0.95      0.97      0.96       107
+
+    accuracy                           0.95       171
+   macro avg       0.95      0.94      0.94       171
+weighted avg       0.95      0.95      0.95       171
+
+Depth vs test accuracy:
+  max_depth=1: 0.9064 (5-fold CV: 0.8998)
+  max_depth=2: 0.9474 (5-fold CV: 0.9280)
+  max_depth=3: 0.9532 (5-fold CV: 0.9174)
+  max_depth=4: 0.9415 (5-fold CV: 0.9174)
+  max_depth=5: 0.9415 (5-fold CV: 0.9227)
+  max_depth=6: 0.9415 (5-fold CV: 0.9174)
+  max_depth=7: 0.9415 (5-fold CV: 0.9156)
+  max_depth=8: 0.9415 (5-fold CV: 0.9209)
+
+Top features:
+ worst perimeter            0.8387
+worst smoothness           0.0793
+worst concave points       0.0376
+fractal dimension error    0.0361
+worst compactness          0.0083
+
+Tree rules:
+ |--- worst perimeter <= 115.35
+|   |--- worst perimeter <= 101.65
+|   |   |--- worst concave points <= 0.18
+|   |   |   |--- class: 1
+|   |   |--- worst concave points >  0.18
+|   |   |   |--- class: 0
+|   |--- worst perimeter >  101.65
+|   |   |--- worst smoothness <= 0.14
+|   |   |   |--- class: 1
+|   |   |--- worst smoothness >  0.14
+|   |   |   |--- class: 0
+|--- worst perimeter >  115.35
+|   |--- fractal dimension error <= 0.00
+|   |   |--- worst compactness <= 0.18
+|   |   |   |--- class: 1
+|   |   |--- worst compactness >  0.18
+|   |   |   |--- class: 0
+|   |--- fractal dimension error >  0.00
+|   |   |--- class: 0
+
+Saved decision_tree.png

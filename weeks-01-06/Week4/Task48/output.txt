@@ -1,0 +1,20 @@
+Correlation matrix:
+             Duration  Calories  Pulse  Shoe_size  Lazy_index
+Duration       1.000     0.955  0.480     -0.002      -0.941
+Calories       0.955     1.000  0.489     -0.022      -0.893
+Pulse          0.480     0.489  1.000      0.054      -0.441
+Shoe_size     -0.002    -0.022  0.054      1.000       0.007
+Lazy_index    -0.941    -0.893 -0.441      0.007       1.000
+
+Duration vs Calories: 0.955 (strong positive)
+Duration vs Lazy_index: -0.941 (strong negative)
+Duration vs Shoe_size: -0.002 (about 0, no relation)
+
+Strongest pairs:
+ Duration  Calories      0.955
+          Lazy_index   -0.941
+Calories  Lazy_index   -0.893
+          Pulse         0.489
+dtype: float64
+
+Saved correlation_heatmap.png

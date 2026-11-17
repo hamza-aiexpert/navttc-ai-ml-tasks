@@ -1,0 +1,8 @@
+[NLTK unavailable - using simple pure-Python fallback]
+
+Sentences: 3
+Tokens   : ['Natural', 'Language', 'Processing', 'helps', 'computers', 'understand', 'human', 'language', '.', 'Google', 'and', 'Microsoft', 'are', 'building', 'AI', 'tools', 'in', 'Lahore', ',', 'Pakistan', '.', 'NAVTTC', 'trains', 'students', 'to', 'build', 'intelligent', 'applications', '.']
+No stopwords: ['Natural', 'Language', 'Processing', 'computers', 'understand', 'human', 'language', 'Google', 'Microsoft', 'building', 'AI', 'tools', 'Lahore', 'Pakistan', 'NAVTTC', 'trains', 'students', 'build', 'intelligent', 'applications']
+Stems    : ['natural', 'language', 'process', 'computer', 'understand', 'human', 'language', 'google', 'microsoft', 'build', 'ai', 'tool', 'lahore', 'pakistan', 'navttc', 'train', 'student', 'build', 'intelligent', 'application']
+Lemmas   : ['natural', 'language', 'process', 'computer', 'understand', 'human', 'language', 'google', 'microsoft', 'build', 'ai', 'tool', 'lahore', 'pakistan', 'navttc', 'train', 'student', 'build', 'intelligent', 'application']
+Word frequency: [('language', 2), ('natural', 1), ('processing', 1), ('helps', 1), ('computers', 1)]

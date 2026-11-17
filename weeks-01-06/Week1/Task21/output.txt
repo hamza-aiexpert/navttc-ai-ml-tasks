@@ -1,0 +1,11 @@
+List: [10, 20, 30, 40, 50] | length: 5
+Index/slice: 10 50 [20, 30, 40] [50, 40, 30, 20, 10]
+After append/insert/extend: [5, 10, 20, 30, 40, 50, 60, 70, 80]
+After remove/pop: [10, 20, 30, 40, 50, 60, 70] | popped 80
+count of 1: 2 | index of 4: 2
+sorted: [1, 1, 2, 3, 4, 5, 6, 9]
+reverse sorted: [9, 6, 5, 4, 3, 2, 1, 1]
+squares: [1, 4, 9, 16, 25, 36, 49] | even squares: [4, 16, 36]
+transpose: [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+copy keeps original unchanged: [1, 2, 3] [1, 2, 3, 4]
+max/min/sum: 70 10 280

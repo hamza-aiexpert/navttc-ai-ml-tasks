@@ -1,0 +1,11 @@
+epoch     0  loss 0.28319
+epoch  2000  loss 0.00077
+epoch  4000  loss 0.00028
+epoch  6000  loss 0.00016
+epoch  8000  loss 0.00011
+
+Predictions after training:
+[0. 0.] -> 0.006 => 0
+[0. 1.] -> 0.992 => 1
+[1. 0.] -> 0.99 => 1
+[1. 1.] -> 0.011 => 0

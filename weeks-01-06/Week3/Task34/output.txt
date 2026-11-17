@@ -1,0 +1,22 @@
+original: [ 1  2  3  4  5  6  7  8  9 10 11 12] (12,)
+reshape(4, 3):
+ [[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+reshape(2, 3, 2):
+ [[[ 1  2]
+  [ 3  4]
+  [ 5  6]]
+
+ [[ 7  8]
+  [ 9 10]
+  [11 12]]]
+reshape(2, -1) shape: (2, 6)
+reshape(-1, 4) shape: (3, 4)
+reshape returns a view: True
+flatten 2-D: [ 1  2  3  4  5  6  7  8  9 10 11 12]
+reshape(-1): [ 1  2  3  4  5  6  7  8  9 10 11 12]
+ravel: [ 1  2  3  4  5  6  7  8  9 10 11 12]
+ValueError: cannot reshape array of size 12 into shape (5,3)
+expand_dims: (1, 12) | squeeze: (12,)

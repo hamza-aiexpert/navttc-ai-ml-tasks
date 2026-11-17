@@ -1,0 +1,45 @@
+0    1
+1    7
+2    2
+dtype: int64 
+first value: 1
+
+Custom labels:
+ x    1
+y    7
+z    2
+dtype: int64 
+s2['y'] = 7
+
+From dict:
+ day1    420
+day2    380
+day3    390
+dtype: int64
+
+Only day1 and day2:
+ day1    420
+day2    380
+dtype: int64
+
+sum/mean/max: 1190 396.67 420
+filter > 385:
+ day1    420
+day3    390
+dtype: int64
+vectorized math (x*2):
+ day1    840
+day2    760
+day3    780
+dtype: int64
+idxmax: day1 | sort:
+ day2    380
+day3    390
+day1    420
+dtype: int64
+
+apply:
+ day1      high
+day2    normal
+day3    normal
+dtype: str

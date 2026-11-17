@@ -1,0 +1,60 @@
+   calories  duration
+0       420        50
+1       380        40
+2       390        45
+
+Row 0 (loc):
+ calories    420
+duration     50
+Name: 0, dtype: int64
+
+Rows 0 and 1:
+    calories  duration
+0       420        50
+1       380        40
+
+Named index:
+       calories  duration
+day1       420        50
+day2       380        40
+day3       390        45
+
+loc['day2']:
+ calories    380
+duration     40
+Name: day2, dtype: int64
+iloc[0, 1] = 50
+
+After adding column and row:
+       calories  duration  rating
+day1     420.0      50.0     4.5
+day2     380.0      40.0     3.9
+day3     390.0      45.0     4.1
+day4     400.0      42.0     4.0
+
+Drop column 'rating':
+       calories  duration
+day1     420.0      50.0
+day2     380.0      40.0
+day3     390.0      45.0
+day4     400.0      42.0
+
+shape: (4, 3) | columns: ['calories', 'duration', 'rating'] | index: ['day1', 'day2', 'day3', 'day4']
+
+df.T:
+            day1   day2   day3   day4
+calories  420.0  380.0  390.0  400.0
+duration   50.0   40.0   45.0   42.0
+rating      4.5    3.9    4.1    4.0
+
+sorted by duration:
+       calories  duration  rating
+day2     380.0      40.0     3.9
+day4     400.0      42.0     4.0
+day3     390.0      45.0     4.1
+day1     420.0      50.0     4.5
+
+query calories>390:
+       calories  duration  rating
+day1     420.0      50.0     4.5
+day4     400.0      42.0     4.0

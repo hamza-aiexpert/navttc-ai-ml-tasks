@@ -1,0 +1,10 @@
+Data (low spread):  [86, 87, 88, 86, 87, 85, 86]
+std: 0.9035 | variance: 0.8163
+Data (high spread): [32, 111, 138, 28, 59, 77, 97]
+std: 37.845 | variance: 1432.2449
+
+Manual population: variance = 1432.2449  std = 37.845
+Manual sample:     variance = 1670.9524  std = 40.8773
+numpy ddof=1 check: 40.8773
+Mean: 77.429 | CV: 0.489
+68% range (mean +- 1 std): 39.58 to 115.27

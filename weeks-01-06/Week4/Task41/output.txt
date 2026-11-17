@@ -1,0 +1,40 @@
+pandas version: 3.0.2
+    cars  passings
+0    BMW         3
+1  Volvo         7
+2   Ford         2
+
+Series:
+ a    10
+b    20
+c    30
+Name: values, dtype: int64
+
+Basic info:
+shape: (3, 2) | columns: ['cars', 'passings'] | dtypes: {'cars': <StringDtype(storage='python', na_value=nan)>, 'passings': dtype('int64')}
+       passings
+count  3.000000
+mean   4.000000
+std    2.645751
+min    2.000000
+25%    2.500000
+50%    3.000000
+75%    5.000000
+max    7.000000
+
+Select a column:
+ 0      BMW
+1    Volvo
+2     Ford
+Name: cars, dtype: str
+
+Filter rows (passings > 2):
+     cars  passings
+0    BMW         3
+1  Volvo         7
+
+New column:
+     cars  passings  is_german
+0    BMW         3       True
+1  Volvo         7      False
+2   Ford         2      False

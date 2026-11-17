@@ -1,0 +1,6 @@
+original: [42  2  3  4  5] | copy: [1 2 3 4 5]
+original: [42  2  3  4  5] | view: [42  2  3  4  5]
+after changing view -> original: [42 77  3  4  5]
+copy.base is None: True
+view.base is arr: True
+slice sees change: [  1 100   3] | fancy index does not: [1 2 3]

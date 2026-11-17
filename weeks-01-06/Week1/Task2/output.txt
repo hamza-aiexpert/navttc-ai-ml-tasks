@@ -1,0 +1,110 @@
+
+=== pwd - print working directory ===
+/tmp/linux_practice.PDbcXX
+
+=== mkdir - make directories ===
+project
+
+=== cd - change directory ===
+/tmp/linux_practice.PDbcXX/project
+
+=== touch - create empty files ===
+.:
+docs
+notes.txt
+src
+
+./docs:
+readme.md
+
+./src:
+main.py
+
+=== redirection (> and >>) ===
+wrote notes.txt and numbers.txt
+
+=== cat - show file ===
+line one
+line two
+line three
+
+=== file - detect file type ===
+notes.txt:   ASCII text
+src/main.py: empty
+.:           directory
+
+=== more / less (non-interactive demo) ===
+(more/less are pagers; here we pipe through head to show the idea)
+1
+2
+3
+
+=== head ===
+1
+2
+3
+4
+5
+
+=== cp - copy ===
+docs
+notes.txt
+notes_backup.txt
+numbers.txt
+src
+
+=== mv - move/rename ===
+backup_renamed.txt
+readme.md
+
+=== alias ===
+alias ll='ls -l'
+linux_practice.sh: line 28: ll: command not found
+
+=== chmod - permissions ===
+-rw-r--r-- 1 root root 28 Oct 17 15:42 script.sh
+-rwxr-xr-x 1 root root 28 Oct 17 15:42 script.sh
+
+=== bash / sh - run a script ===
+Hello from script.sh
+Hello from script.sh
+
+=== ps and kill ===
+  PID COMMAND
+  348 sleep
+process 348 killed
+confirmed: process is gone
+
+=== man (manual page, first lines) ===
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+
+=== dpkg - list installed packages (first 5) ===
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                                 Version                              Architecture Description
++++-====================================-====================================-============-================================================================================
+ii  adduser                              3.137ubuntu1                         all          add and remove users and groups
+ii  adwaita-icon-theme                   46.0-1                               all          default icon theme of GNOME
+ii  apt                                  2.8.3                                amd64        commandline package manager
+
+=== rm and rmdir ===
+docs removed (rmdir works only on empty directories)
+src removed (rm -r removes a non-empty directory)
+notes.txt
+numbers.txt
+script.sh
+
+=== Commands NOT executed in this script (need root / affect the system) ===
+sudo apt update && sudo apt upgrade   # package update and upgrade (sudo = run as administrator)
+sudo dpkg -i package.deb              # install a .deb package
+sudo shutdown -h now                  # power off
+sudo shutdown -r now  /  sudo reboot  # restart
+nano file.txt                         # terminal text editor (Ctrl+O save, Ctrl+X exit)
+printenv / export NAME=value          # environment variables
+
+Done. Sandbox removed.

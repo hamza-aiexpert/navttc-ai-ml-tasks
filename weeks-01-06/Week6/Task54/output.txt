@@ -1,0 +1,21 @@
+Linear SVM accuracy (breast cancer): 0.965
+[[50  3]
+ [ 2 88]]
+              precision    recall  f1-score   support
+
+   malignant       0.96      0.94      0.95        53
+      benign       0.97      0.98      0.97        90
+
+    accuracy                           0.97       143
+   macro avg       0.96      0.96      0.96       143
+weighted avg       0.96      0.97      0.96       143
+
+Kernel comparison on iris (3-class):
+  linear   accuracy = 0.9778
+  poly     accuracy = 0.9333
+  rbf      accuracy = 1.0000
+  sigmoid  accuracy = 0.9111
+
+Moons dataset: linear vs RBF kernel saved to svm_kernels_moons.png
+
+Best params: {'svc__C': 1, 'svc__gamma': 'scale', 'svc__kernel': 'rbf'} | CV score: 0.9859 | test acc: 0.958

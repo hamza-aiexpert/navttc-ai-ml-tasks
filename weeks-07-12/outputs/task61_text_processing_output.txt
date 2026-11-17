@@ -1,0 +1,7 @@
+Cleaned  : check ai machine learning courses in are great students love them contact
+Tokens   : ['check', 'ai', 'machine', 'learning', 'courses', 'in', 'are', 'great', 'students', 'love', 'them', 'contact']
+Stopwords removed: ['check', 'ai', 'machine', 'learning', 'courses', 'great', 'students', 'contact']
+Stemmed  : ['check', 'ai', 'machine', 'learn', 'cours', 'great', 'student', 'contact']
+Bigrams  : [('check', 'ai'), ('ai', 'machine'), ('machine', 'learning'), ('learning', 'courses'), ('courses', 'in')]
+Top words: [('check', 1), ('ai', 1), ('machine', 1)]
+(Install nltk for the NLTK stemmer: pip install nltk)

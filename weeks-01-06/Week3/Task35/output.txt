@@ -1,0 +1,18 @@
+1-D element: 1
+1-D element: 2
+1-D element: 3
+Iterating rows of a 2-D array:
+  row: [1 2 3]
+  row: [4 5 6]
+Iterating every scalar:
+1 2 3 4 5 6 
+nditer: [1, 2, 3, 4, 5, 6, 7, 8]
+as bytes: np.bytes_(b'1')
+as bytes: np.bytes_(b'2')
+as bytes: np.bytes_(b'3')
+(0, 0) -> 1
+(0, 1) -> 2
+(0, 2) -> 3
+(1, 0) -> 4
+(1, 1) -> 5
+(1, 2) -> 6

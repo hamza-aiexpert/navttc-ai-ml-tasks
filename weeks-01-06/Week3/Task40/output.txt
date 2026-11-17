@@ -1,0 +1,14 @@
+randint(100): 51
+randint array: [92 14 71 60 20]
+2-D randint:
+ [[82 86 74]
+ [74 87 99]]
+rand float: 0.1429 | rand array: [0.651 0.056 0.722]
+choice: 5 | choice array: [[5, 5, 9], [9, 3, 3]]
+weighted choice: [5 7 7 5 7 5 5 5 7 7]
+shuffle: [2 7 1 5 6 4 3]
+permutation: [4 2 6 1 7 3 5]
+normal mean ~ 49.88 | std ~ 10.03
+binomial: [5 5 5 6 5]
+uniform: [0.628 0.935 0.299]
+poisson: [3 3 5 3 3]

@@ -1,0 +1,17 @@
+'  Artificial Intelligence and Machine Learning  '
+strip: 'Artificial Intelligence and Machine Learning'
+upper/lower/title: ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING | artificial intelligence and machine learning | Artificial Intelligence And Machine Learning
+length: 44 | first/last char: A g
+slicing: Artificial | reversed: gninraeL enihcaM dna ecnegilletnI laicifitrA
+find/count: 11 6
+replace: Artificial Intelligence and Deep Learning
+split: ['Artificial', 'Intelligence', 'and', 'Machine', 'Learning']
+join: a-b-c
+startswith/endswith: True True
+isdigit/isalpha: True True True
+f-string: Sara scored 91.5 | Sara scored 91.46
+format(): Sara scored    91.46
+center/zfill: ****hi**** 00042
+Level is palindrome: True
+vowels in 'education': 5
+Escape: tab\t newline\n -> raw: C:\new\table

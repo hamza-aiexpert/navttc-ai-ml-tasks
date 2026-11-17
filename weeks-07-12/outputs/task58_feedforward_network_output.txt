@@ -1,0 +1,10 @@
+epoch   0 cross-entropy 2.5261
+epoch  40 cross-entropy 0.2579
+epoch  80 cross-entropy 0.1017
+epoch 120 cross-entropy 0.0665
+epoch 160 cross-entropy 0.0461
+epoch 200 cross-entropy 0.0348
+epoch 240 cross-entropy 0.0272
+epoch 280 cross-entropy 0.0218
+Train accuracy: 0.9986
+Test accuracy : 0.9694
